@@ -17,10 +17,15 @@ public class FactTest {
 		List<Integer> numbers = new ArrayList<>();
 		BufferedReader reader = new BufferedReader(new FileReader("Numbers.txt"));
 		
+//		String line;
+//		while((line = reader.readLine())!= null) {
+//			numbers.add(Integer.parseInt(line.trim()));
+//		}
+//		reader.close();
+		
 		String line;
-		while((line = reader.readLine())!= null) {
-			numbers.add(Integer.parseInt(line.trim()));
-		}
+		while((line = reader.readLine())!= null)
+			numbers.add(Integer.parseInt(line));
 		reader.close();
 		
 		
