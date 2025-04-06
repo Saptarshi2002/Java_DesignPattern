@@ -28,8 +28,7 @@ public class FactTest {
 		FactUtil fact = FactUtil.getInstance();
 		int factorial = fact.factorial(n);
 		
-
-//		JOptionPane.showMessageDialog(null, fact, line, factorial);
+		
 		JOptionPane.showMessageDialog(null, "Factorial is "+factorial, "Required Factorial", JOptionPane.PLAIN_MESSAGE);
 	}
 
