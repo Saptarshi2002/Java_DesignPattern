@@ -5,11 +5,8 @@ public class Main {
 		// TODO Auto-generated method stub
 	
 		NotificationService notify = new NotificationService();
-		//SMS Notification
 		notify.notifyService("sms", "Hello");
-		//Email Notification
 		notify.notifyService("email", "Hello");
-		//Buzzer Notification
 		notify.notifyService("buzzer", "Hello");
 	}
 
