@@ -13,6 +13,8 @@ public class Octal implements Observer {
             frame.setSize(300, 100);
 //            JLabel label = new JLabel("Binary: " + Integer.toBinaryString(n));
 //            label.setText("Binary: " + Integer.toBinaryString(n));
+            
+            
             label.setText("Octal:  " + Integer.toOctalString(n));
             frame.add(label);
             frame.setLocationRelativeTo(null);
