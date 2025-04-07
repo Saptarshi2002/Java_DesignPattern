@@ -16,6 +16,7 @@ public class Main {
 		MainConverter converter = new MainConverter();
 		Binary binary = new Binary();
 		converter.add(binary);
+		converter.add(new Octal());
 		
 		JFrame frame;
 		JTextField input;
