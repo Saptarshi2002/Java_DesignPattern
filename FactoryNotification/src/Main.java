@@ -6,7 +6,8 @@ public class Main {
 	
 		NotificationService notify = new NotificationService();
 		notify.notifyService("sms", "Hello");
-
+		notify.notifyService("email", "Hello");
+		notify.notifyService("buzzer", "Hello");
 	}
 
 }
